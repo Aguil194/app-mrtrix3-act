@@ -16,10 +16,10 @@
     "fact_dirs": 3,
     "fact_fibs": 0,
     "premask": false,
-    "bvec": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-dwi.tag-preprocessed.id-62cf2d4cf3194eded6008d1f/dwi.bvecs",
-    "bval": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-dwi.tag-preprocessed.id-62cf2d4cf3194eded6008d1f/dwi.bvals",
-    "diff": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-dwi.tag-preprocessed.id-62cf2d4cf3194eded6008d1f/dwi.nii.gz",
-    "anat": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-anat-t1w.tag-acpc_aligned.id-62cf2d4cf3194eded6008d20/t1.nii.gz",
+    "bvec": "/Users/nando/app-mrtrix3-act/input/.../dwi.bvecs",
+    "bval": "/Users/nando/app-mrtrix3-act/input/.../dwi.bvals",
+    "diff": "/Users/nando/app-mrtrix3-act/input/.../dwi.nii.gz",
+    "anat": "/Users/nando/app-mrtrix3-act/input/.../t1.nii.gz",
     "_inputs": [
         {
             "id": "dwi",
