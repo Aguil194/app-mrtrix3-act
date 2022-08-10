@@ -1,0 +1,102 @@
+{
+    "tensor_fit": "",
+    "norm": false,
+    "min_length": "50",
+    "max_length": "250",
+    "imaxs": "",
+    "ens_lmax": true,
+    "curvs": "5 10 20 40 80",
+    "num_fibers": "15000",
+    "do_dtdt": true,
+    "do_dtpb": false,
+    "do_detr": true,
+    "do_prb1": false,
+    "do_prb2": true,
+    "do_fact": false,
+    "fact_dirs": 3,
+    "fact_fibs": 0,
+    "premask": false,
+    "bvec": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-dwi.tag-preprocessed.id-62cf2d4cf3194eded6008d1f/dwi.bvecs",
+    "bval": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-dwi.tag-preprocessed.id-62cf2d4cf3194eded6008d1f/dwi.bvals",
+    "diff": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-dwi.tag-preprocessed.id-62cf2d4cf3194eded6008d1f/dwi.nii.gz",
+    "anat": "/Users/nando/app-mrtrix3-act/input/62cf2d08f3194eded6008cc7/sub-100206/dt-neuro-anat-t1w.tag-acpc_aligned.id-62cf2d4cf3194eded6008d20/t1.nii.gz",
+    "_inputs": [
+        {
+            "id": "dwi",
+            "task_id": "62cf2d08f3194eded6008cc7",
+            "subdir": "62cf2d4cf3194eded6008d1f",
+            "meta": {
+                "subject": "100206"
+            },
+            "tags": [],
+            "datatype": "58c33c5fe13a50849b25879b",
+            "datatype_tags": [
+                "preprocessed"
+            ],
+            "keys": [
+                "bvec",
+                "bval",
+                "diff"
+            ],
+            "project": "62cf2d08f3194eded6008cc7",
+            "dataset_id": "62cf2d4cf3194eded6008d1f"
+        },
+        {
+            "id": "anat",
+            "task_id": "62cf2d08f3194eded6008cc7",
+            "subdir": "62cf2d4cf3194eded6008d20",
+            "meta": {
+                "subject": "100206"
+            },
+            "tags": [],
+            "datatype": "58c33bcee13a50849b25879a",
+            "datatype_tags": [
+                "acpc_aligned"
+            ],
+            "keys": [
+                "anat"
+            ],
+            "project": "62cf2d08f3194eded6008cc7",
+            "dataset_id": "62cf2d4cf3194eded6008d20"
+        }
+    ],
+    "_app": "5aac2437f0b5260027e24ae1",
+    "_outputs": [
+        {
+            "id": "tracking",
+            "datatype": "5907d922436ee50ffde9c549",
+            "desc": "RACE-Track | MRTrix3 Anatomical Informed Tractography",
+            "meta": {
+                "subject": "100206"
+            },
+            "tags": [],
+            "files": null,
+            "datatype_tags": []
+        },
+        {
+            "id": "tensor",
+            "datatype": "5a79df48d071a1753f1d661b",
+            "desc": "RACE-Track | MRTrix3 Anatomical Informed Tractography",
+            "meta": {
+                "subject": "100206"
+            },
+            "tags": [],
+            "files": {
+                "tensors": "tensor.nii.gz"
+            },
+            "datatype_tags": []
+        },
+        {
+            "id": "csd",
+            "datatype": "5c536bf0f9109beac46adb45",
+            "desc": "RACE-Track | MRTrix3 Anatomical Informed Tractography",
+            "meta": {
+                "subject": "100206"
+            },
+            "tags": [],
+            "files": null,
+            "datatype_tags": []
+        }
+    ],
+    "_tid": 2
+}
